@@ -6,11 +6,15 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     box-sizing: border-box;
 }
 body{
     margin: 0;
+
+    font-family: "Montserrat", sans-serif;
+
 }
 header{
     position: fixed;
@@ -29,7 +33,7 @@ header{
     margin-top: 0px;
 }
 header img{
-    margin-right: 640px;
+    margin-right: 560px;
     width:200px;
 }
 header nav a{
@@ -38,3 +42,26 @@ header nav a{
     font-size: 25px;
     color: #1A1A1A;
 }
+#background-main{
+    width: 100%; 
+    
+}
+#background-main img{
+    position: relative;
+}
+#absolute-text{
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 31px;
+    letter-spacing: 2px;
+}
+#absolute-text p{
+    width: 620px;
+    font-size: 20px;
+    text-align: center;
+}
+
