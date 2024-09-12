@@ -9,6 +9,32 @@ White: #FFF
 *{
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+}
 header{
-    width: 1200px;
+    position: fixed;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+    top: 0;
+    margin-top: 0px;
+}
+header img{
+    margin-right: 640px;
+    width:200px;
+}
+header nav a{
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 25px;
+    color: #1A1A1A;
 }
